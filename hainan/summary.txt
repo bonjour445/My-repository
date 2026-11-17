@@ -1,0 +1,23 @@
+海南省乡镇/街道界线数据包摘要
+要素数：245
+地市/分组：5（海口、三亚、三沙、儋州、省直辖县级行政区划）；县级父级：25
+各组：海口市 47，三亚市 4，三沙市 3，儋州市 18，省直辖县级行政区划 173
+缺字段：0；重复代码：0；无效几何：9
+类似乡级单位：29
+海口 47；三亚 4（仅4个区直辖残差镇面）；儋州 18（所属区县=['儋州市']）；省直辖 173（15 县）
+三沙 3：仅西沙 3 面，南沙/中沙无乡镇多边形，未编造。树中有但无面：永暑岛、中沙岛礁、保亭县直辖村级区划。
+范围：lon 108.612248–112.917405, lat 15.701905–20.161593
+CRS：源 .prj = WGS84，EWKB SRID={'4326': 245}
+
+文件：
+- shp_zip: /workspace/hainan-towns/海南全省_乡镇街道_shp.zip  3846532 bytes (3.67 MiB)  sha256=2d9abc7778016e464023bba2ee9af9cf131dd95530b778f6577f05bd14daeeee
+- geojson_zip: /workspace/hainan-towns/海南全省_乡镇街道_geojson.zip  2466611 bytes (2.35 MiB)  sha256=696fa520f7d04e0b5ab6cfdd27eb7e1308e822b91498f95cfc56ee1e09413bbc
+- preview: /workspace/hainan-towns/海南全省_乡镇街道_预览.png  644053 bytes (629.0 KiB)  sha256=423b19e9b827c9039d72a62449cdc659f4560b644023da87061ff0f20743ee00
+- readme: /workspace/hainan-towns/README.md  13577 bytes (13.3 KiB)  sha256=c9d50c31a17c3a38e9b50b0dc4605bca1c6ded736bfb2cde4927158ab4c45e75
+- shp: /workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.shp  6311420 bytes (6.02 MiB)  sha256=852ece70a8979e0c4a55b888e24ed05bc7e34b30bd3473219a0904da68cba5be
+- dbf: /workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.dbf  56885 bytes (55.6 KiB)  sha256=915c03cbce343547ded405085332e2b92b12c6e03c18285b2db5e69f3db9bb35
+- prj: /workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.prj  145 bytes  sha256=a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4
+- geojson: /workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.geojson  9039879 bytes (8.62 MiB)  sha256=6b7e1696b7f3bb85266da6831b19365cebe95d30ac3a830e3decc1203d6946bc
+
+建议 GitHub 目录：hainan/
+本包未上传仓库，也未传到公共网盘。

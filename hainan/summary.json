@@ -1,0 +1,604 @@
+{
+  "province": "海南省",
+  "province_code": "460000",
+  "n_features": 245,
+  "n_city_groups": 5,
+  "n_counties": 25,
+  "by_city": {
+    "海口市": 47,
+    "三亚市": 4,
+    "三沙市": 3,
+    "儋州市": 18,
+    "省直辖县级行政区划": 173
+  },
+  "by_county": {
+    "海口市-秀英区(460105)": 8,
+    "海口市-龙华区(460106)": 11,
+    "海口市-琼山区(460107)": 13,
+    "海口市-美兰区(460108)": 15,
+    "三亚市-海棠区(460202)": 1,
+    "三亚市-吉阳区(460203)": 1,
+    "三亚市-天涯区(460204)": 1,
+    "三亚市-崖州区(460205)": 1,
+    "三沙市-西沙区(460321)": 3,
+    "儋州市-儋州市(460400)": 18,
+    "省直辖县级行政区划-五指山市(469001)": 9,
+    "省直辖县级行政区划-琼海市(469002)": 13,
+    "省直辖县级行政区划-文昌市(469005)": 18,
+    "省直辖县级行政区划-万宁市(469006)": 14,
+    "省直辖县级行政区划-东方市(469007)": 11,
+    "省直辖县级行政区划-定安县(469021)": 10,
+    "省直辖县级行政区划-屯昌县(469022)": 8,
+    "省直辖县级行政区划-澄迈县(469023)": 12,
+    "省直辖县级行政区划-临高县(469024)": 11,
+    "省直辖县级行政区划-白沙黎族自治县(469025)": 11,
+    "省直辖县级行政区划-昌江黎族自治县(469026)": 9,
+    "省直辖县级行政区划-乐东黎族自治县(469027)": 13,
+    "省直辖县级行政区划-陵水黎族自治县(469028)": 12,
+    "省直辖县级行政区划-保亭黎族苗族自治县(469029)": 10,
+    "省直辖县级行政区划-琼中黎族苗族自治县(469030)": 12
+  },
+  "missing_required": [],
+  "dup_codes": {},
+  "dup_name_county": {},
+  "invalid_geom_n": 9,
+  "invalid_geom": [
+    {
+      "name": "龙塘镇",
+      "code": "460107101000",
+      "error": "Self-intersection[110.412383 19.858774]"
+    },
+    {
+      "name": "和庆镇",
+      "code": "460400101000",
+      "error": "Self-intersection[109.716859 19.507818]"
+    },
+    {
+      "name": "南丰镇",
+      "code": "460400102000",
+      "error": "Self-intersection[109.471848 19.300977]"
+    },
+    {
+      "name": "通什镇",
+      "code": "469001100000",
+      "error": "Self-intersection[109.566865 18.763555]"
+    },
+    {
+      "name": "翁田镇",
+      "code": "469005111000",
+      "error": "Self-intersection[110.819306 19.880863]"
+    },
+    {
+      "name": "雷鸣镇",
+      "code": "469021104000",
+      "error": "Ring Self-intersection[110.313935 19.630221]"
+    },
+    {
+      "name": "枫木镇",
+      "code": "469022102000",
+      "error": "Self-intersection[109.995332 19.185325]"
+    },
+    {
+      "name": "调楼镇",
+      "code": "469024109000",
+      "error": "Self-intersection[109.547647 19.911585]"
+    },
+    {
+      "name": "保城镇",
+      "code": "469029100000",
+      "error": "Too few points in geometry component[109.621797 18.646042]"
+    }
+  ],
+  "empty_geom": [],
+  "outside_extent": [],
+  "extent": {
+    "min_lon": 108.612248,
+    "max_lon": 112.917405,
+    "min_lat": 15.701905,
+    "max_lat": 20.161593
+  },
+  "source_prj_is_wgs84": true,
+  "ewkb_srids": {
+    "4326": 245
+  },
+  "dbf_readable_gb18030": true,
+  "n_zone_like": 29,
+  "zone_like": [
+    {
+      "name": "省岭脚热带作物场",
+      "code": "460107500000",
+      "county": "琼山区",
+      "city": "海口市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "省长昌煤矿",
+      "code": "460107501000",
+      "county": "琼山区",
+      "city": "海口市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "海口桂林洋经济开发区（农场）",
+      "code": "460108400000",
+      "county": "美兰区",
+      "city": "海口市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "罗牛山农场",
+      "code": "460108500000",
+      "county": "美兰区",
+      "city": "海口市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "海棠湾镇",
+      "code": "460202198000",
+      "county": "海棠区",
+      "city": "三亚市",
+      "flags": [
+        "code_198"
+      ]
+    },
+    {
+      "name": "吉阳镇",
+      "code": "460203198000",
+      "county": "吉阳区",
+      "city": "三亚市",
+      "flags": [
+        "code_198"
+      ]
+    },
+    {
+      "name": "天涯镇",
+      "code": "460204198000",
+      "county": "天涯区",
+      "city": "三亚市",
+      "flags": [
+        "code_198"
+      ]
+    },
+    {
+      "name": "崖城镇",
+      "code": "460205198000",
+      "county": "崖州区",
+      "city": "三亚市",
+      "flags": [
+        "code_198"
+      ]
+    },
+    {
+      "name": "永兴管委会",
+      "code": "460321451000",
+      "county": "西沙区",
+      "city": "三沙市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "永乐群岛管委会",
+      "code": "460321452000",
+      "county": "西沙区",
+      "city": "三沙市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "七连屿管委会",
+      "code": "460321453000",
+      "county": "西沙区",
+      "city": "三沙市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "洋浦经济开发区",
+      "code": "460400499000",
+      "county": "儋州市",
+      "city": "儋州市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "华南热作学院",
+      "code": "460400500000",
+      "county": "儋州市",
+      "city": "儋州市",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "畅好镇",
+      "code": "469001198000",
+      "county": "五指山市",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "code_198"
+      ]
+    },
+    {
+      "name": "畅好农场",
+      "code": "469001400000",
+      "county": "五指山市",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "彬村山华侨农场",
+      "code": "469002500000",
+      "county": "琼海市",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营罗豆农场",
+      "code": "469005402000",
+      "county": "文昌市",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "兴隆华侨农场",
+      "code": "469006500000",
+      "county": "万宁市",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "地方国营六连林场",
+      "code": "469006501000",
+      "county": "万宁市",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "东方华侨农场",
+      "code": "469007500000",
+      "county": "东方市",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营金安农场",
+      "code": "469023405000",
+      "county": "澄迈县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营加来农场",
+      "code": "469024401000",
+      "county": "临高县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营霸王岭林场",
+      "code": "469026500000",
+      "county": "昌江黎族自治县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营尖峰岭林业公司",
+      "code": "469027500000",
+      "county": "乐东黎族自治县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营莺歌海盐场",
+      "code": "469027501000",
+      "county": "乐东黎族自治县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营吊罗山林业公司",
+      "code": "469028500000",
+      "county": "陵水黎族自治县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营新星农场",
+      "code": "469029401000",
+      "county": "保亭黎族苗族自治县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "国营加钗农场",
+      "code": "469030406000",
+      "county": "琼中黎族苗族自治县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "name",
+        "code_4xx"
+      ]
+    },
+    {
+      "name": "海南黎母山省级自然保护区管理站",
+      "code": "469030500000",
+      "county": "琼中黎族苗族自治县",
+      "city": "省直辖县级行政区划",
+      "flags": [
+        "code_4xx"
+      ]
+    }
+  ],
+  "haikou_n": 47,
+  "sanya_n": 4,
+  "sanya_names": [
+    "海棠湾镇(460202198000)/海棠区",
+    "吉阳镇(460203198000)/吉阳区",
+    "天涯镇(460204198000)/天涯区",
+    "崖城镇(460205198000)/崖州区"
+  ],
+  "danzhou_n": 18,
+  "danzhou_counties": [
+    "儋州市"
+  ],
+  "danzhou_names": [
+    "那大镇",
+    "和庆镇",
+    "南丰镇",
+    "大成镇",
+    "雅星镇",
+    "兰洋镇",
+    "光村镇",
+    "木棠镇",
+    "海头镇",
+    "峨蔓镇",
+    "王五镇",
+    "白马井镇",
+    "中和镇",
+    "排浦镇",
+    "东成镇",
+    "新州镇",
+    "洋浦经济开发区",
+    "华南热作学院"
+  ],
+  "sansha_n": 3,
+  "sansha_names": [
+    "永兴管委会(460321451000)/西沙区",
+    "永乐群岛管委会(460321452000)/西沙区",
+    "七连屿管委会(460321453000)/西沙区"
+  ],
+  "sansha_features": [
+    {
+      "name": "永兴管委会",
+      "code": "460321451000",
+      "bounds": [
+        111.194228,
+        15.701905,
+        112.917405,
+        17.117409
+      ]
+    },
+    {
+      "name": "永乐群岛管委会",
+      "code": "460321452000",
+      "bounds": [
+        111.489816,
+        16.437981,
+        111.781109,
+        16.596814
+      ]
+    },
+    {
+      "name": "七连屿管委会",
+      "code": "460321453000",
+      "bounds": [
+        112.200432,
+        16.91796,
+        112.352495,
+        16.995931
+      ]
+    }
+  ],
+  "province_direct_n": 173,
+  "province_direct_counties": [
+    {
+      "county": "万宁市",
+      "code": "469006"
+    },
+    {
+      "county": "东方市",
+      "code": "469007"
+    },
+    {
+      "county": "临高县",
+      "code": "469024"
+    },
+    {
+      "county": "乐东黎族自治县",
+      "code": "469027"
+    },
+    {
+      "county": "五指山市",
+      "code": "469001"
+    },
+    {
+      "county": "保亭黎族苗族自治县",
+      "code": "469029"
+    },
+    {
+      "county": "定安县",
+      "code": "469021"
+    },
+    {
+      "county": "屯昌县",
+      "code": "469022"
+    },
+    {
+      "county": "文昌市",
+      "code": "469005"
+    },
+    {
+      "county": "昌江黎族自治县",
+      "code": "469026"
+    },
+    {
+      "county": "澄迈县",
+      "code": "469023"
+    },
+    {
+      "county": "琼中黎族苗族自治县",
+      "code": "469030"
+    },
+    {
+      "county": "琼海市",
+      "code": "469002"
+    },
+    {
+      "county": "白沙黎族自治县",
+      "code": "469025"
+    },
+    {
+      "county": "陵水黎族自治县",
+      "code": "469028"
+    }
+  ],
+  "tree_without_geom": [
+    {
+      "name": "永暑岛",
+      "code": "460322451000",
+      "county": "南沙群岛（2021年县树）/南沙区（2021年县级界）",
+      "city": "三沙市",
+      "note": "树接口有名称，源乡镇面中无此要素；南沙乡镇多边形整体缺失"
+    },
+    {
+      "name": "中沙岛礁",
+      "code": "460323451000",
+      "county": "中沙群岛的岛礁及其海域（2021年县树）/西沙区（2021年县级界）",
+      "city": "三沙市",
+      "note": "树接口有名称，源乡镇面中无此要素；中沙无乡镇多边形"
+    },
+    {
+      "name": "县直辖村级区划",
+      "code": "469029198000",
+      "county": "保亭黎族苗族自治县",
+      "city": "省直辖县级行政区划",
+      "note": "2021年乡镇树有此虚拟单位，源乡镇面中无对应多边形（面数据另有国营新星农场 469029401000）"
+    }
+  ],
+  "files": {
+    "shp_zip": {
+      "path": "/workspace/hainan-towns/海南全省_乡镇街道_shp.zip",
+      "bytes": 3846532,
+      "sha256": "2d9abc7778016e464023bba2ee9af9cf131dd95530b778f6577f05bd14daeeee"
+    },
+    "geojson_zip": {
+      "path": "/workspace/hainan-towns/海南全省_乡镇街道_geojson.zip",
+      "bytes": 2466611,
+      "sha256": "696fa520f7d04e0b5ab6cfdd27eb7e1308e822b91498f95cfc56ee1e09413bbc"
+    },
+    "preview": {
+      "path": "/workspace/hainan-towns/海南全省_乡镇街道_预览.png",
+      "bytes": 644053,
+      "sha256": "423b19e9b827c9039d72a62449cdc659f4560b644023da87061ff0f20743ee00"
+    },
+    "readme": {
+      "path": "/workspace/hainan-towns/README.md",
+      "bytes": 13577,
+      "sha256": "c9d50c31a17c3a38e9b50b0dc4605bca1c6ded736bfb2cde4927158ab4c45e75"
+    },
+    "shp": {
+      "path": "/workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.shp",
+      "bytes": 6311420,
+      "sha256": "852ece70a8979e0c4a55b888e24ed05bc7e34b30bd3473219a0904da68cba5be"
+    },
+    "dbf": {
+      "path": "/workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.dbf",
+      "bytes": 56885,
+      "sha256": "915c03cbce343547ded405085332e2b92b12c6e03c18285b2db5e69f3db9bb35"
+    },
+    "prj": {
+      "path": "/workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    },
+    "geojson": {
+      "path": "/workspace/hainan-towns/out/海南全省_乡镇街道/海南全省_乡镇街道.geojson",
+      "bytes": 9039879,
+      "sha256": "6b7e1696b7f3bb85266da6831b19365cebe95d30ac3a830e3decc1203d6946bc"
+    }
+  },
+  "zip_shp_mb": 3.846532,
+  "zip_gj_mb": 2.466611,
+  "under_100mb": true,
+  "source": {
+    "site": "https://map.ruiduobao.com/",
+    "usage": "https://map.ruiduobao.com/others/使用说明.html",
+    "api_docs": "https://map.ruiduobao.com/others/API文档.html",
+    "download": "https://map.ruiduobao.com/downloadCityBatch/city/{code}?format=shp&year=2021&village=none",
+    "counties": "https://map.ruiduobao.com/api/tree/counties?year=2021&province=海南省&city=…",
+    "cities": "https://map.ruiduobao.com/api/tree/cities?year=2021&province=海南省",
+    "license": "noncommercial / reference only; not official legal boundaries",
+    "township_vintage": "about 2020 census; year= parameter does not change township geometry",
+    "county_names_vintage": "2021 (Sansha township codes still 460321; labels use 2021 西沙区)"
+  },
+  "github_folder_recommended": "hainan/",
+  "sansha_coverage": "INCOMPLETE: township polygons only 3 Xisha management committees; no Nansha or Zhongsha township polygons; not fabricated"
+}
