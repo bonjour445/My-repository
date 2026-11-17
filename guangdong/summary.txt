@@ -1,0 +1,22 @@
+广东省乡镇/街道界线数据包摘要
+要素数：1770
+地级市：21（应为 21）
+各地市：东莞市 34，中山市 24，云浮市 72，佛山市 41，广州市 172，惠州市 82，揭阳市 109，梅州市 118，汕头市 69，汕尾市 64，江门市 79，河源市 101，深圳市 79，清远市 90，湛江市 135，潮州市 57，珠海市 31，肇庆市 106，茂名市 125，阳江市 69，韶关市 113
+缺字段：0；重复代码：0；无效几何：62
+类似乡级单位/开发区：170
+东莞：34（所属区县=['东莞市']）；中山：24（所属区县=['中山市']）
+范围：lon 109.664629–117.313707, lat 20.223364–25.519988
+CRS：源 .prj = WGS84，EWKB SRID={'4326': 1770}
+
+文件：
+- shp_zip: /workspace/guangdong-towns/广东全省_乡镇街道_shp.zip  34692011 bytes (33.08 MiB)  sha256=ad19eade2e299dbdf7650ade3c52524c1b3dceee06337b490f1e471d95658e3e
+- geojson_zip: /workspace/guangdong-towns/广东全省_乡镇街道_geojson.zip  21839337 bytes (20.83 MiB)  sha256=0264cf7e645493f75d143206e943e01f456efd1f2d4f3eb247cdfcc56f8d7901
+- preview: /workspace/guangdong-towns/广东全省_乡镇街道_预览.png  935638 bytes (913.7 KiB)  sha256=9e9b9ebeaf8415a58b8ee062f46c325622b76b255d208f3fc147838e3e10498e
+- readme: /workspace/guangdong-towns/README.md  21209 bytes (20.7 KiB)  sha256=ec55746c47294ffb3e20bb817d553abdbfc08b539332fadae2a3226361f6547a
+- shp: /workspace/guangdong-towns/out/广东全省_乡镇街道/广东全省_乡镇街道.shp  56626588 bytes (54.00 MiB)  sha256=88a304b032561d2610520b21486a40182c08dd5c24b2f85222d78713d66fa8ce
+- dbf: /workspace/guangdong-towns/out/广东全省_乡镇街道/广东全省_乡镇街道.dbf  356060 bytes (347.7 KiB)  sha256=95273d04ad1465be666eb15c2d24d8f3b04a9c661d5dd88d44480cfcd2d06312
+- prj: /workspace/guangdong-towns/out/广东全省_乡镇街道/广东全省_乡镇街道.prj  145 bytes  sha256=a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4
+- geojson: /workspace/guangdong-towns/out/广东全省_乡镇街道/广东全省_乡镇街道.geojson  80992856 bytes (77.24 MiB)  sha256=0fd9898f11dcfb3267064bea704e2e51a6ebc8a078d520d83102e9c1c1e584cd
+
+建议 GitHub 目录：guangdong/
+本包未上传仓库，也未传到公共网盘。
